@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MyBiz Design</title>
+    
+    <link href="../assets/plugins/fontawesome/css/all.min.css" rel="stylesheet" />
+
+    <link href="../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!--- NAVBAR STARTS --->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+        <div class="container-fluid">
+            <!--offcanvas trigger starts-->
+            <button class="navbar-toggler me-2" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--offcanvas trigger ends-->
+            <a class="navbar-brand fw-bold  me-auto" href="#">
+                MyBiz
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="d-flex ms-auto my-3 my-lg-0" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Recipient's username"
+                            aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn btn-primary" type="button" id="button-addon2">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                </form>
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="fa-solid fa-user"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--- NAVBAR ENDS --->
+
+    <!-- OFFCANVAS STARTS-->
+    <div class="offcanvas offcanvas-start sidevar-nav bg-dark text-white" tabindex="-1" id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-body p-0">
+            <nav class="navbar-dark">
+                <ul class="navbar-nav">
+                    <li>
+                        <div class="text-muted small fw-bold text-uppercase px-s">
+                            CORE
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="px-3 nav-link active">
+                            <span class="me-2">
+                                <i class="fa-solid fa-gauge"></i>
+                            </span>
+                            <span>
+                                Dashboard
+                            </span>
+                        </a>
+                    </li>
+                    <li class="my-4">
+                        <hr class="dropdown-divider bg-light">
+                    </li>
+                    <li>
+                        <div class="text-muted small fw-bold text-uppercase px-s">
+                            Interface
+                        </div>
+                    </li>
+                    <li>
+                        <a class="nav-link px-3 sidebar-link" data-bs-toggle="collapse" href="#collapseExample"
+                            role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <span class="me-2">
+                                <i class="fa-solid fa-table-columns"></i>
+                            </span>
+                            <span>
+                                Collabsible Link
+                            </span>
+                            <span class="right-icon ms-auto">
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </span>
+                        </a>
+                        <div class="collapse" id="collapseExample">
+                            <div class="">
+                                <ul class="navbar-nav ps-3">
+                                    <li>
+                                        <a href="#" class="nav-link ps-3">
+                                            <span class="me-2">
+                                                <i class="fa-solid fa-table-columns"></i>
+                                            </span>
+                                            <span>
+                                                Nested Link
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!--OFFCANVAS ENDS-->
+
+    <main class="mt-5 pt-3">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 fw-bold fs-3">
+                    Dashboard
+                </div>
+            </div>
+            <div class="row my-2">
+                <div class="col-md-12">
+                    <a href="https://frontendfunn.github.io/bootstrap-5-admin-dashboard-template/">
+                        https://frontendfunn.github.io/bootstrap-5-admin-dashboard-template/
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card text-bg-primary mb-3" style="max-width: 18rem;">
+                        <div class="card-header">Header</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Primary card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-bg-secondary mb-3" style="max-width: 18rem;">
+                        <div class="card-header">Header</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Secondary card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-bg-success h-100">
+                        <div class="card-header">Header</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Success card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-bg-danger h-100">
+                        <div class="card-header">Header</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Danger card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, cupiditate aspernatur. Harum dicta dolores hic maiores itaque, perferendis quia quam reprehenderit atque. Perferendis eaque fugit ab facere quod tempora exercitationem?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="../assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
