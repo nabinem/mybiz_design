@@ -26,6 +26,9 @@
         <!--LEFT SIDEBAR MENU STARTS-->
         <nav class="leftside-menu bg-white" id="leftSideMenu">
             <!-- LOGO -->
+            <a class="text-muted" href="javascript:;" id="leftSideMenuSmClose">
+                <i class="fa-regular fa-circle-xmark"></i>
+            </a>
             <a href="#" class="navbar-brand logo bg-white text-center">
                 <span class="logo-large">
                     <img src="../assets/img/logo.png" alt="logo" height="40">
@@ -270,7 +273,7 @@
             <!-- Main Content-->
             <div class="main-content mt-5 min-vh-100">
                 <div class="container-fluid">
-                    <div class="text-center fw-bold mb-5">Design Template</div>
+                    <div class="text-center fw-bold mb-5">Design Template Demo18</div>
                 </div>
             </div>
             <!-- main content ends -->
@@ -309,6 +312,10 @@
             } else {
                 document.body.classList.toggle("leftside-menu-condensed");
             }
+        });
+
+        document.getElementById("leftSideMenuSmClose").addEventListener("click", function(e){
+            document.body.classList.add("leftside-menu-condensed");
         });
         
     </script>
